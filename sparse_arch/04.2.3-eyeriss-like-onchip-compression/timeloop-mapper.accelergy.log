@@ -15,7 +15,7 @@ Warn: Cannot recognize the top key "sparse_optimizations" in file sparse_opt/eye
 Warn: Cannot recognize the top key "architecture_constraints" in file constraints/eyeriss_like_arch_constraints.yaml 
 Warn: Cannot recognize the top key "mapspace_constraints" in file constraints/eyeriss_like_map_constraints.yaml 
 Warn: Cannot recognize the top key "mapper" in file mapper/mapper.yaml 
-Warn: Cannot recognize the top key "problem" in file ../../sparse_PointNet_Layers/pointNet_layer9.yaml 
+Warn: Cannot recognize the top key "problem" in file ../../sparse_PointNet_Layers/pointNet_layer12.yaml 
 Info: Parsing file arch/arch.yaml for architecture info 
 Info: Found non-numeric expression 45nm. Available bindings: {'technology': '45nm'} 
 WARN: Failed to evaluate "45nm". Setting eyeriss_168.technology="45nm". Available bindings: {'technology': '45nm'}
@@ -47,20 +47,20 @@ Info: estimator plug-in identified by:  /usr/local/share/accelergy/estimation_pl
 Info: estimator plug-in identified by:  /usr/local/share/accelergy/estimation_plug_ins/dummy_tables/dummy.estimator.yaml 
 Info: CACTI plug-in... Querying CACTI for request:
  {'class_name': 'SRAM', 'attributes': OrderedDict([('technology', '45nm'), ('width', 16), ('depth', 224), ('datawidth', 16), ('n_rdwr_ports', 2), ('n_banks', 1), ('avg_sparsity', 'avg_sparsity'), ('n_rd_ports', 0), ('n_wr_ports', 0), ('latency', '5ns')]), 'action_name': 'write', 'arguments': None}
-copy  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/default_SRAM.cfg  to  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_15_59_21_SRAM.cfg
-CACTI plug-in removing temp file:  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_15_59_21_SRAM.cfg
+copy  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/default_SRAM.cfg  to  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_19_18_34_SRAM.cfg
+CACTI plug-in removing temp file:  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_19_18_34_SRAM.cfg
 Info: CACTI plug-in... Querying CACTI for request:
  {'class_name': 'SRAM', 'attributes': OrderedDict([('technology', '45nm'), ('width', 64), ('depth', 12800), ('datawidth', 64), ('n_rdwr_ports', 2), ('n_banks', 1), ('avg_sparsity', 'avg_sparsity'), ('n_rd_ports', 0), ('n_wr_ports', 0), ('latency', '5ns')]), 'action_name': 'write', 'arguments': None}
-copy  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/default_SRAM.cfg  to  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_15_59_21_SRAM.cfg
-CACTI plug-in removing temp file:  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_15_59_21_SRAM.cfg
+copy  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/default_SRAM.cfg  to  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_19_18_34_SRAM.cfg
+CACTI plug-in removing temp file:  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_19_18_34_SRAM.cfg
 Info: CACTI plug-in... Querying CACTI for request:
  {'class_name': 'SRAM', 'attributes': OrderedDict([('technology', '45nm'), ('width', 32), ('depth', 4096), ('datawidth', 32), ('n_rd_ports', 0), ('n_wr_ports', 0), ('n_rdwr_ports', 1), ('n_banks', 1), ('latency', '5ns')]), 'action_name': 'read', 'arguments': None}
-copy  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/default_SRAM.cfg  to  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_15_59_22_SRAM.cfg
-CACTI plug-in removing temp file:  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_15_59_22_SRAM.cfg
+copy  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/default_SRAM.cfg  to  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_19_18_34_SRAM.cfg
+CACTI plug-in removing temp file:  /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti/timeloop-mapper.05_05_19_18_34_SRAM.cfg
 Warn: No action counts are specified as yaml input 
-Info: flattened architecture is saved to: sparse_layers/sparse_pointNet_layer9/timeloop-mapper.flattened_architecture.yaml 
-Info: energy reference table is saved to: sparse_layers/sparse_pointNet_layer9/timeloop-mapper.ERT.yaml 
-Info: energy reference table summary is saved to: sparse_layers/sparse_pointNet_layer9/timeloop-mapper.ERT_summary.yaml 
+Info: flattened architecture is saved to: sparse_layers/sparse_pointNet_layer12/timeloop-mapper.flattened_architecture.yaml 
+Info: energy reference table is saved to: sparse_layers/sparse_pointNet_layer12/timeloop-mapper.ERT.yaml 
+Info: energy reference table summary is saved to: sparse_layers/sparse_pointNet_layer12/timeloop-mapper.ERT_summary.yaml 
 Warn: no runtime energy estimations are generated... not generating energy_estimation.yaml 
-Info: area reference table is saved to: sparse_layers/sparse_pointNet_layer9/timeloop-mapper.ART.yaml 
-Info: area reference table summary is saved to: sparse_layers/sparse_pointNet_layer9/timeloop-mapper.ART_summary.yaml 
+Info: area reference table is saved to: sparse_layers/sparse_pointNet_layer12/timeloop-mapper.ART.yaml 
+Info: area reference table summary is saved to: sparse_layers/sparse_pointNet_layer12/timeloop-mapper.ART_summary.yaml 
