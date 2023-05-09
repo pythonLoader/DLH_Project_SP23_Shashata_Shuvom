@@ -1,2 +1,2 @@
-GFLOPs,Utilization,Cycles,Energy,Area,Algorithmic Computes,Total_pJ_Algorithmic_Compute,Actual Computes,Total_pJ_Actual_Compute
-127.88,0.38,2097152.0,1745.79,0.0,134217728.0,13.01,134217728.0,13.01
+GFLOPs,Utilization,Cycles,Energy,Area,Algorithmic Computes,Actual Computes,pj_algorithmic_compute,pj_actual_compute
+127.88,0.38,2097152.0,1745.79,0.0,134217728.0,134217728.0,13.01,13.01

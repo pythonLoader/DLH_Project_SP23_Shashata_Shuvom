@@ -1,0 +1,23 @@
+    _                _                      
+   / \   ___ ___ ___| | ___ _ __ __ _ _   _ 
+  / _ \ / __/ __/ _ \ |/ _ \ '__/ _` | | | |
+ / ___ \ (_| (_|  __/ |  __/ | | (_| | |_| |
+/_/   \_\___\___\___|_|\___|_|  \__, |\__, |
+                                |___/ |___/ 
+
+Info: generating outputs according to the following specified output flags... 
+ Please use the -f flag to update the preference (default to all output files) 
+{'ERT': 1, 'ERT_summary': 1, 'ART': 1, 'ART_summary': 1, 'energy_estimation': 1, 'flattened_arch': 1}
+Info: config file located: /home/workspace/.config/accelergy/accelergy_config.yaml 
+config file content: 
+ {'compound_components': [], 'estimator_plug_ins': ['/usr/local/share/accelergy/estimation_plug_ins'], 'primitive_components': ['/usr/local/share/accelergy/primitive_component_libs'], 'table_plug_ins': {'roots': ['/usr/local/share/accelergy/estimation_plug_ins/accelergy-table-based-plug-ins/set_of_table_templates', '/Users/shashatasawmya/Documents/HARchDLlab3/lab-3-pythonLoader/workspace/lab3/PIM_estimation_tables', '/home/workspace/lab4/PIM_estimation_tables', '/home/workspace/lab3/PIM_estimation_tables']}, 'version': 0.3}
+Warn: Cannot recognize the top key "problem" in file ../../pointNet_Layers/pointNet_layer9.yaml 
+Warn: Cannot recognize the top key "mapping" in file map/mm-2level.yaml 
+Info: Parsing file arch/2level.arch.yaml for architecture info 
+Info: Found non-numeric expression 45nm. Available bindings: {'technology': '45nm'} 
+WARN: Failed to evaluate "45nm". Setting system.technology="45nm". Available bindings: {'technology': '45nm'}
+Info: primitive component file parsed:  /usr/local/share/accelergy/primitive_component_libs/pim_primitive_component.lib.yaml 
+Info: primitive component file parsed:  /usr/local/share/accelergy/primitive_component_libs/soc_primitives.lib.yaml 
+Info: primitive component file parsed:  /usr/local/share/accelergy/primitive_component_libs/primitive_component.lib.yaml 
+Warn: No compound component classes specified, architecture can only contain primitive components 
+ERROR: class "regfile_metadata" is not defined 
